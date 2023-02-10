@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace hada_p1
 {
-    class Class1
+    class HadaP1
     {
+        public static double Seconds2Minutes(double s)
+        {
+            return s * 60;
+        }
     }
 }
