@@ -17,9 +17,23 @@ namespace hada_p1
             }
             else
             {
+                i = s / 60;
+            }
+            return i;
+        }
+        public static double Minutes2Seconds(double m)
+        {
+            double i = 0;
+            if (s == 0)
+            {
+                i = 0;
+            }
+            else
+            {
                 i = s * 60;
             }
             return i;
         }
+
     }
 }
