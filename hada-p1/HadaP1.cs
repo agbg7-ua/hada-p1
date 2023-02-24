@@ -34,7 +34,7 @@ namespace hada_p1
             {//Para lo demás, el resultado es multiplicar los minutos por 60
                 i = s * 60;
             }
-            return i;
+            return i; //Devolvemos el valor de la operación
         }
 
     }
