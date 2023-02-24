@@ -23,9 +23,13 @@ namespace hada_p1
                 if(respuesta1 == "segundos")
                 {
                     hadap1.Secons2Minutes(respuesta2);
-                }else
+                }else if(respuesta1 == "minutos")
                 {
                     hadap1.Minutes2Seconds(respuesta2);
+                }
+                else
+                {
+                    hadap1.Hours2Minutes(respuesta2);
                 }
                 Console.WriteLine("¿Quiere realizar más conversiones?");
                 respuesta3 = Console.ReadLine();
